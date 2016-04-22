@@ -20,6 +20,7 @@ hr {
 	font-family: Didot;
 	font-style: italic;
 	font-size: 18px;
+	padding: 50px;
 }
 
 	a {
@@ -27,4 +28,5 @@ hr {
 	color: #000000;
 	font-family: Didot;
 	font-style: underline;
+	padding: 25px;
 	}
