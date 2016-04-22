@@ -1,11 +1,7 @@
 style.css
 body {
   text-align: center;
-  background-image: url(IMG_2209.jpg);
-  div {
-    width: 500px;
-    height: 100px;
-    border: 3px solid
+  background: url("IMG_2209.jpg");
   background-size: cover;
   color: #fff;
   font-family: Didot;
@@ -23,10 +19,14 @@ hr {
   p {
   	text-align: center;
 	color: #000000;
-	font-family: Didot;}
+	font-family: Didot;
+	font-style: italic;
+	font-size: 18px;
+}
 
 	a {
 	text-align: center;
 	color: #000000;
 	font-family: Didot;
+	font-style: underline;
 	}
