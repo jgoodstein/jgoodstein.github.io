@@ -1,7 +1,6 @@
-style.css
 body {
   text-align: center;
-  background: url("IMG_2209.jpg");
+  background: url(images/IMG_2209.jpg");
   background-size: cover;
   color: #fff;
   font-family: Didot;
@@ -11,7 +10,6 @@ h1 {
 	text-align: center;
 	color: #000000;
 	font-family: Didot;
-	
 }
 hr {
   width: 200px;
