@@ -10,6 +10,7 @@ h1 {
 	text-align: center;
 	color: #000000;
 	font-family: Didot;
+	font-size: 30px;
 }
 hr {
   width: 200px;
@@ -18,7 +19,8 @@ p {
   	text-align: center;
 	color: #000000;
 	font-family: Didot;
-	font-size: 18px;
+	font-size: 20px;
+	font-style: italic;
 	padding: 50px;
 }
 
@@ -26,6 +28,7 @@ p {
 	text-align: center;
 	color: #000000;
 	font-family: Didot;
-	font-style: underline;
-	padding: 25px;
+	font-style: none;
+	border-style: solid;
+	margin: 25px;
 	}
