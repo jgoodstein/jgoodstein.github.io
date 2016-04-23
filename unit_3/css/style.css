@@ -28,7 +28,7 @@ p {
 	text-align: center;
 	color: #000000;
 	font-family: Didot;
-	font-style: none;
-	border-style: solid;
-	margin: 25px;
+	font-size: 30px;
+	line-height: 1.5em;
+    margin: 2em;
 	}
