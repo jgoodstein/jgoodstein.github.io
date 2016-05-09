@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Playball);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+*{
+	margin: 10px
+	padding: 20px;
+}
+body {
+  	background: url(../images/pink_abstract.jpg) no-repeat center center scroll;
+	background-color: white;
+  	color: grey;
+  	text-align: center;
+  	font-family: Lora, serif;
+  	margin-top: 50px;
+}
+
+header {
+	padding:0 200px;
+}
+
+h1 {
+	text-align: center;
+	color: #000000;
+	font-family: 'Slabo 27px', serif;
+	font-size: 100px;
+	margin: 50px;
+}
+
+h2 {
+	font-family: 'Playball', cursive;
+	color: #ffffff;
+	font-size: 50px;
+	margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+hr {
+  
+  width: 2em;
+  height: 3px;
+  margin:1em;
+}
+
+p {
+  	text-align: center;
+	color: #000000;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	font-style: italic;
+	padding: 50px;
+}
+
+.navlinks {
+	font-family: 'Lora', serif;
+	color:#000;
+	text-transform: none;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding:20px;
+	margin: 20px;
+    border:solid;
+    background-color: #CDDC39;
+}
+
+nav{
+}
+	
+	a {
+	text-align: left;
+	color: #000000;
+	font-family: 'Lora', serif;
+	font-size: 30px;
+	text-decoration: none;
+	line-height: 1.5em;
+    margin: 2em;
+	}
+
+section{
+	 
+}
+
+
+}
