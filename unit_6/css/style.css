@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Playball);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+  	background-color: white;
+  	color: black;
+  	text-align: center;
+  	font-family: 'Slabo 27px', serif;
+  	font-size: 16px;
+  	margin: 0px 0px;
+  	position: relative;
+}
+
+header {
+    border: none;
+    padding: 20px; 
+}
+
+h1 {
+	text-align: left;
+	color: #000;
+	font-family: 'Slabo 27px', serif;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 50px;
+	max-width: 1200px;
+}
+
+h2 {
+	font-family: 'Playball', cursive;
+	color: #fff;
+	font-size: 35px;
+	margin-top: 10px;
+    padding: 30px 30px;
+    text-align: center;
+}
+
+a { 
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+ }
+
+hr {
+  
+  width: 2em;
+  height: 3px;
+  margin:1em;
+}
+
+p {
+  	text-align: left;
+	color: #000000;
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+	padding: 20px;
+	max-width: 250px;
+	margin-left: 55px;
+}
+
+nav {
+	text-align: center;
+	background-color: #ccc;
+}
+
+/*LoVe HAte*/
+
+nav a:link {
+	color: #000000;
+	display: inline-block;
+	width: 179px;
+    float: none;
+    border: none;
+    padding: 10px 20px;
+	background-color: #ccc;
+}
+
+nav a:hover {
+	color: #fff;
+	border: none;
+}
+
+section {
+	padding: 20px 0;
+	background-color: #E89C6C;
+}
+
+
+footer {
+	background-color:  #FF957E;
+    border: none;
+    padding: 20px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	background-color: #ffffff;
+}
+
+.column {
+	float: left;
+	width: 400px;
+  	height: 900px;
+	padding: 20px;
+	margin: 0;
+}
+
+#artwork1 {
+  background-color: #ccc;
+}
+
+#artwork2 {
+  background-color: #ccc;
+}
+
+#artwork3 {
+  background-color: #ccc;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:" ";
+	display: block;
+	clear:both;
+}
+
+#lander {
+	background:url(../images/bazaarcopy.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:500px;
+	padding:20px 0;
+}
+
+.column img {
+	max-width: 250px;
+	display: block;
+	margin:auto;
+}
+
+.artwork img{
+	max-width: 300px;
+}
