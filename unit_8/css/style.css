@@ -9,61 +9,31 @@
 }
 
 body {
-  	background-color: white;
-  	color: black;
-  	text-align: center;
+  	color: rgba(0,0,0,.87);
   	font-family: 'Playfair Display', serif;
   	font-size: 16px;
-  	margin: 0px 0px;
   	position: relative;
 }
 
 header {
-    border: none;
-    padding: 20px; 
+    padding: 20px;
+    background: #FF957E;
 }
 
 h1 {
-	text-align: left;
-	color: #000;
 	font-family: 'Slabo 27px', serif;
-	font-size: 50px;
+	font-size: 3em;
 	font-weight: bold;
-	margin: 1%;
-	max-width: 100%;
 }
 
 h2 {
 	font-family: 'Playball', cursive;
-	color: #000;
 	font-size: 35px;
     padding: .5em .5em;
     text-align: center;
 }
-
-h3 {
-
-}
-
-a { 
-	color: #000;
-	text-decoration: none;
-	font-size: 20px;
- }
-
-hr {
-  	width: 2em;
-  	margin:1em;
-}
-
 p {
-  	text-align: left;
-	color: #000000;
-	font-family: 'Playfair Display', serif;
-	font-size: .5em;
-	line-height: 1.5em;
-	padding: 1em 0 0 1em;
-	width: -30%;
+  	margin-top: 1em;
 }
 
 nav {
@@ -73,19 +43,16 @@ nav {
 
 /*LoVe HAte*/
 
-nav a:link {
-	color: #000000;
+nav a {
+	color: inherit;
 	display: inline-block;
-	width: 16%;
-    float: none;
-    border: none;
-    padding: 10px 10px;
-	background-color: #ccc;
+	margin:0 3em;
+    padding: 1em 2em;
+    text-decoration:none;
 }
 
 nav a:hover {
 	color: #fff;
-	border: none;
 }
 
 section {
@@ -94,9 +61,7 @@ section {
 }
 
 label{
-	font-family: 'Playfair+Display', sans-serif;
-	color:#000;
-	padding:0 32px;
+	padding:0 2em;
 	font-size: .8em;
 	text-align: center;
 	text-transform: uppercase;
@@ -106,7 +71,6 @@ label{
 
 footer {
 	background-color:  #FF957E;
-    border: none;
     padding: 20px;
 }
 
@@ -114,13 +78,12 @@ footer {
 	margin: 0 auto;
 	width: 100%;
 	background-color: #ffffff;
-	padding-top: 10em;
+	padding-top: 2em;
 }
 
 .artwork {
-	width:31%;
-	padding:.5em;
-	margin:1%;
+	width: 33.33%;
+	padding: 2em;
 	float:left;
 }
 
@@ -131,11 +94,9 @@ footer {
 	content:" ";
 	display: block;
 	clear:both;
-	background-color: #ccc;
 }
 
 #lander {
-	background-color: #FF957E;
 	/*background:url(../images/IMG_2353.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -144,11 +105,17 @@ footer {
 	padding-top: 5em;*/
 }
 
-.quote {
-	text-align: right;
+blockquote {
 	color: #fff;
-	font-family: 'Playfair Display', serif;
-	font-size: 1em;
+}
+blockquote p:before {
+	content:"\201C";
+}
+blockquote p:after {
+	content:"\201d";
+}
+cite:before {
+	content:"-";
 }
 
 #toggle{
